@@ -1,0 +1,35 @@
+{
+  "name": "NodeKoaMicroService",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "stop": "node stop.js",
+    "test": "node ./node_modules/mocha/bin/mocha ./Test/*.test.js"
+  },
+  "keywords": [],
+  "author": "FS Domain",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.1.1",
+    "chai-http": "^3.0.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "mocha": "3.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "dynamoose": "^0.8.7",
+    "eslint": "^4.19.1",
+    "knex": "^0.13.0",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-json-error": "^3.1.2",
+    "koa-router": "^7.2.1",
+    "moment": "^2.22.0",
+    "node-datetime": "^2.0.6",
+    "node-wsdl": "^1.0.1",
+    "uuid": "^3.2.1",
+    "validatorjs": "^3.14.2"
+  }
+}
